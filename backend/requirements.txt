@@ -1,0 +1,12 @@
+# Backend (FastAPI) - target: Python 3.13.7
+fastapi>=0.116,<0.118
+uvicorn[standard]>=0.22.0
+SQLAlchemy>=2.0,<2.1
+alembic>=1.11
+asyncpg>=0.30
+python-dotenv>=1.1.1
+pydantic>=2.10
+passlib[bcrypt]>=1.7
+python-jose>=3.5
+httpx>=0.25
+pytest>=7.3

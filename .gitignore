@@ -93,8 +93,6 @@ dist
 
 # vuepress v2.x temp and cache directory
 .temp
-.cache
-
 # Sveltekit cache directory
 .svelte-kit/
 
@@ -137,3 +135,63 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.env
+
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+
+# PyCharm
+.idea/
+*.iml
+
+
+# VS Code
+.vscode/
+
+
+# Node / frontend
+dist/
+.build/
+
+
+# Logs
+
+
+
+# Docker
+docker-compose.override.yml
+*.db
+*.sqlite3
+
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+# Coverage
+htmlcov/
+.coverage
+
+
+# Mypy
+.mypy_cache/
+
+
+# Build
+build/
+
+
+# Ignore secrets
+secrets.json
